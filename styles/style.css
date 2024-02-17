@@ -109,6 +109,13 @@ body{
   margin-right: 126px;
   margin-top: 55px;
 }
+/* 
+.party-content,
+.party-image-2024{
+  flex: 1;
+  padding: 20px;
+} */
+
 
 .party-greeting {
   font-size: 64px;
@@ -141,11 +148,11 @@ body{
   color: #000;
 }
 
-.party-image-2024{
+/* .party-image-2024{
   position: absolute;
   margin-top: 50px;
   margin-right: 50px;
-}
+} */
 
 /* Party Vanue section styles */
 .party-vanue{
@@ -176,3 +183,95 @@ body{
   color: #000;
 }
   
+
+
+/* New Best Offer Section Styles */
+.best-offer{
+  width: 1320px;
+  height: 463px;
+  margin: 150px auto; 
+}
+
+.best-offer-container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.best-offer-details,
+.offer-celebration-img,
+.offer-year {
+  flex: 1;
+  padding: 20px;
+}
+
+.new-best-offer,
+.best-gifts{
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.coming-soon,
+.gift-item-title{
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+.offer-description,
+.yearly-offer-description,
+.gift-item-description{
+  color: rgba(8, 2, 18, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.offer-celebration-img{
+  border: 15px solid #ff0000;
+  border-radius: 50%;
+  margin: 0 60px;
+}
+
+.offer-year{
+  margin-left: 40px;
+}
+
+.year{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-bottom: 10px;
+}
+
+
+/* Gift items section styles */
+.gift-item-section{
+  width: 1320px;
+  height: 600px;
+  margin: 150px auto;
+}
+
+.gift-item-container {
+  width: 100%;
+  max-width: 1320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gift-item-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  
+}
+/* .gift-item-products img {
+  width: 424px;
+  height: 450px;
+  border: 1px dashed #888;
+} */

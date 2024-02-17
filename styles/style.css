@@ -260,6 +260,7 @@ body{
 
 .gift-item-products >img:hover{
   border: 5px solid #e5c6c6;
+  border-radius: 20px;
   transition: step-start;
   transition-duration: 2s;
 }
@@ -285,7 +286,7 @@ body{
   border: none;
   padding: 15px;
   outline: none;
-  border-radius: 20px 0 0 20px;
+  border-radius: 30px 0 0 30px;
   font-size: 20px;
   /* border: 1px solid green; */
 }
@@ -295,7 +296,7 @@ body{
   background-color: #ff0000;
   padding: 15px 30px;
   outline: none;
-  border-radius: 0 20px 20px 0;
+  border-radius: 0 30px 30px 0;
   color: #fff;
   cursor: pointer;
   font-size: 20px;
@@ -303,3 +304,76 @@ body{
   text-transform: capitalize;
 }
 
+/* footer section styles */
+.footer-container{
+  width: 1600px;
+  height: 609px;
+  margin: 150px auto;
+  background: rgb(7, 2, 17);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact-info{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.contact{
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* margin-top: 200px; */
+  /* margin-left: 100px; */
+  
+}
+
+.address{
+  margin-bottom: 260px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.copyright{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.phone,
+.website{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.phone-icon,
+.web-icon {
+  margin-right: 10px;
+}
+
+.social-media-contacts{
+  padding: 40px 0;
+  display: flex;
+  gap: 30px;
+  width: 40%;
+  border-top: 1px solid #ffffff26;
+  border-bottom: 1px solid #ffffff26;
+  justify-content: center;
+}
+
+.unsubscribe{
+  margin-top: 300px;
+  margin-left: 200px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
